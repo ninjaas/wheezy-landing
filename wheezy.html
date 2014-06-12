@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Ninjaas Wheezy - Landing Page</title>
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="static/tuktuk.css">
+    <link rel="stylesheet" href="static/tuktuk.theme.default.css">
+    <!-- TUKTUK.WIDGETS -->
+    <link rel="stylesheet" href="static/tuktuk.icons.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+    <style>
+        body > header .logo {
+            margin-right: 1rem;
+            max-height: 3rem;
+            border-radius: .25rem;}
+
+        section.landing input {
+            border-radius: 1px 0px 0px 1px !important;
+            height: 48px;}
+
+        section.landing button {
+            border-radius: 0px 1px 1px 0px !important;
+            height: 48px;}
+
+        .button.large, button.large {
+            font-size: 1.3em;}
+    </style>
+</head>
+<body>
+    <!-- ========================== HEADER ========================== -->
+    <header class="bck margin-top margin-bottom">
+        <div class="row">
+            <div class="column_6">
+                <img src="http://intro.ninjaas.com/images/logo.svg" class="logo on-left"/>
+                <h2 class="text italic thin">Wheezy</h2>
+            </div>
+        </div>
+    </header>
+
+    <section class="bck theme landing text center">
+        <div class="row">
+            <div class="column_10 offset_1">
+                <h1><strong>Wheezy</strong> Web</h1>
+                <h3 class="margin-bottom">wheezy.web is a lightweight, high performance, high concurrency WSGI web framework with the key features to <strong>build modern, efficient web</strong></h3>
+            </div>
+        </div>
+        <div class="row">
+            <form id="emailForm" method="post" action="/email" >
+                <div class="column_6 offset_3 form subscribe">
+                        <input type="email" name="email" class="large" placeholder="Your email address">
+                        <button class="button large icon envelope"></button>
+                </div>
+                <div class="column_6 offset_3 ">
+                    <span class="success"></span>
+                    <span class="error"></span>
+                </div>
+            </form>
+        </div>
+        <h5 class="text book">It is optimized for performance, well tested and documented.</h5>
+    </section>
+
+    <section class="bck dark padding text center">
+        <div class="row padding-bottom">
+            <div class="column_10 offset_1">
+                <h1 class="text book color theme">Wheezy is completely light weight, Built for Performance</h1>
+                <h4>
+                    Encourage separation of code and content. Work more productively at higher level of abstraction.
+                </h4>
+            </div>
+        </div>
+
+        <div class="row padding-top">
+            <div class="column_3">
+                <h5 class="text normal">Runs on Python</h5>
+                <small>The application works on Python 2.4-2.7 or 3.2+.</small>
+            </div>
+            <div class="column_3">
+                <h5 class="text normal">Puse-based MVC</h5>
+                <small>MVC with complete push-based architectural pattern. Similar to Django, Wheezy, Ruby on Rails, Symfony, Yii, Spring MVC, Stripes, Play, CodeIgniter and Struts2</small>
+            </div>
+            <div class="column_3">
+                <h5 class="text normal">Functionalities</h5>
+                <small>Most light weight Routing, model update/validation, authentication/authorization, content caching with dependency, xsrf/resubmission protection, AJAX+JSON, i18n (gettext), middlewares, and many many many more.</small>
+            </div>
+            <div class="column_3">
+                <h5 class="text normal">Template engine agnostic</h5>
+                <small>Integration with template engines like jinja2, mako, tenjin and wheezy.template. BTW, it also support widgets for all the template engines.</small>
+            </div>
+        </div>
+    </section>
+
+    <section class="bck light padding">
+        <div class="row text thin center">
+            <div class="column_10 offset_1">
+                <h1 class="text book color theme">Completely Open Source.</h1>
+                <h4>
+                    Code base is hosted on <a href="https://bitbucket.org/akorn/wheezy.web">BitBucket</a>.
+                    We also use it for <a href="https://bitbucket.org/akorn/wheezy.web/issues">issue tracking</a>.
+                    You can use the Freenode IRC <code>#wheezy.web</code> for any kind of help.
+                </h4>
+                <p>Rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="landing">
+        <div class="row text center">
+            <div class="column_10 offset_1">
+                <h2 class="text bold color theme">Do you want to learn Wheezy?</h2>
+                <h4 class="text book italic">We have create a pretty good documentation and tons of examples. To learn go through the documentation page and example. We solve different types of cases in each problem.</h4>
+                <a href="#" class="button large margin-top">Read Documentation</a>
+                <a href="#" class="button large margin-top">More Examples</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="padding bck light">
+        <div class="row margin-bottom">
+            <div class="column_10 offset_1 text center">
+                <h1 class="color book theme">Author</h1>
+                <h3 class="text thin">Andriy Kornatskyy is a python developer since many year, to know more about him you need to go to his blog <a href="mindref.blogspot.in" class="text normal">Mind Reference</a>. A highly intecttual mind that has always strived making best architecture, able to create a frameworks like this single handedly. Extensive experience in implementing, using, and mentoring teams utilizing Scrum. Technical leading teams of 4 – 20, multi-project target and cross teams.</h3>
+             </div>
+         </div>
+
+        <div class="row ">
+            <div class="column_4 offset_4 text center">
+                <img src="https://media.licdn.com/media/p/2/000/280/2fd/3e974d9.jpg" class=" column_2 offset_1 center  margin-bottom">
+            </div>
+        </div>
+    </section>
+
+    <footer class="padding align center text small bck light">
+        <div class="row">
+            <div class="offset_3 column_6">
+                <p>Designed by <a href="http://ninjaas.com" class="teninjaasxt bold color theme">ninjaas.</a>
+                <small>Front-end Framework used is <a href="http://tuktuk.tapquo.com/">TukTuk</a></small>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+            var frm = $('#emailForm');
+            frm.submit(function() {
+                $.ajax({
+                        type: frm.attr('method'),
+                        url: frm.attr('action'),
+                        data: frm.serialize(),
+                        success: function(data){
+                           frm.find(".error,.success").html("");
+                           if(data.success){
+                            frm.find(".success").html(data.success);
+                           }
+                           if(data.error){
+                            frm.find(".error").html(data.error);
+                           }
+                        }
+                    });
+                return false;
+            });
+        </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+.cf {
+  *zoom: 1; }
+
+.ie-8 {
+  display: none; }
+
+sup {
+  vertical-align: super; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px; }
+
+body {
+  font-family: 'Ubuntu';
+  color: white;
+  background: black;
+  width: 100%; }
+
+a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s; }
+  a:hover {
+    text-shadow: 0 0 1px #093040, 0 0 3px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff; }
+
+#svg-background {
+  overflow: hidden; }
+
+.hide {
+  display: none; }
+
+.hidden {
+  display: none;
+  visibility: hidden; }
+
+
+.centered-absolute {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto; }
+
+#wrapper {
+  text-align: center;
+  padding-top: 10px; }
+
+#main-bg {
+  width: 100%;
+  position: absolute;
+  z-index: 1; }
+
+.logo {
+  font-family: 'Nobile', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.message {
+  font-size: 19px;
+  padding-bottom: 2%;
+  line-height: 1.4em;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  /*margin: 0 auto;*/
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.message p {
+  text-align: center; 
+}
+
+.lrg-text-inpt {
+  font-family: 'Nobile', sans-serif;
+  background: rgba(0, 0, 0, 0.3);
+  width: 320px;
+  max-width: 320px;
+  text-align: center;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  margin-right: 0px;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 0.7em;
+}
+
+@media only screen  
+and (max-width : 720px) {
+  #wrapper-assets {
+    display: none;
+  }
+}
